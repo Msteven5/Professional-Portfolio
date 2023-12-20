@@ -74,9 +74,30 @@ h4 {
     width:50%;
     box-sizing:content-box;
 }
+#surf {
+    background-image:url(./camera.jpg);
+    background-size:135px;
+}
+
+#led {
+    background-image:url(./camera.jpg);
+    background-size:130px;
+}
+
+#calculator {
+    background-image:url(./camera.jpg);
+    background-size:130px;
+}
+
+#pastel {
+    background-image:url(./tablet.jpg);
+    background-size:130px;
+}
 
 #buddy {
-    margin-bottom:60px;
+    background-image:url(./tablet.jpg);
+    background-size:130px;
+    margin-bottom:60px
 }
 
 footer {
@@ -86,21 +107,27 @@ footer {
 }
 
 h5 {
-    font-size: 32px;
+    display:flex;
+    font-size: 30px;
+    position:absolute;
+    margin: 45px 0px;
+    flex:0 2 30px;
+    padding: 15px;
+    /* font-size: 32px;
     color:navy;
-    margin: 7px;
+    margin: 7px; */
 }
 
 #contact-info {
     display: flex;
     width: 80%;
-    font-size: 32px;
+    font-size: 25px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin-left: 65px;
-    margin-top: 5px;
-    border: 10px;
-    list-style:none;
+    padding: 55px 35px;
+    margin-left: 208px;
+    margin-top: 11px;
+    border-left: 5px solid black;
+    list-style: none;
 }
