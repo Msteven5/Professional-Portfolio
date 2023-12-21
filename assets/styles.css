@@ -115,7 +115,7 @@ h4 > a {
     flex-wrap:wrap;
 }
 
-#surf {
+#business-page {
     background-image:url(./marvin-meyer-SYTO3xs06fU-unsplash.jpg);
     /* //Photo by <a href="https://unsplash.com/@marvelous?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marvin Meyer</a> on <a href="https://unsplash.com/photos/people-sitting-down-near-table-with-assorted-laptop-computers-SYTO3xs06fU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
     background-size:100%;
@@ -123,7 +123,7 @@ h4 > a {
     height: 400px;
 }
 
-#led {
+#placeholder1 {
     background-image:url(./ilya-pavlov-OqtafYT5kTw-unsplash.jpg); 
     /*Photo by <a href="https://unsplash.com/@ilyapavlov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ilya Pavlov</a> on <a href="https://unsplash.com/photos/monitor-showing-java-programming-OqtafYT5kTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   */
@@ -132,7 +132,7 @@ h4 > a {
     text-decoration:none;
 }
 
-#calculator {
+#placeholder2 {
     background-image:url(./jason-leung-Xaanw0s0pMk-unsplash.jpg);
     /*Photo by <a href="https://unsplash.com/@ninjason?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jason Leung</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-multicolored-confetti-lot-Xaanw0s0pMk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   */
@@ -141,7 +141,7 @@ h4 > a {
     text-decoration:none;
 }
 
-#pastel {
+#placeholder3 {
     background-image:url(./hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg);
     /*Photo by <a href="https://unsplash.com/@sloppyperfectionist?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hans-Peter Gauster</a> on <a href="https://unsplash.com/photos/stack-of-jigsaw-puzzle-pieces-3y1zF4hIPCg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
     background-size:100%;
@@ -149,7 +149,7 @@ h4 > a {
     text-decoration:none;
 }
 
-#buddy {
+#placeholder4 {
     background-image:url(./myriam-zilles-KltoLK6Mk-g-unsplash.jpg);
     /* Photo by <a href="https://unsplash.com/@myriamzilles?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Myriam Zilles</a> on <a href="https://unsplash.com/photos/white-blue-and-orange-medication-pill-KltoLK6Mk-g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
     background-size:100%;
