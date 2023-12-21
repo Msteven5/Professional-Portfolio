@@ -1,6 +1,12 @@
 * {
     font-family:Arial, Helvetica, sans-serif;
-    
+    text-decoration:none;
+}
+
+a:hover {
+    background-color: black;
+    color:navy;
+    cursor:grab;
 }
 
 body {
@@ -32,7 +38,7 @@ h1 {
 
 nav {
     display:flex;
-    width:60%;
+    width:40%;
     font-size: 24px;
     flex-direction:row;
     justify-content:space-between;
@@ -42,12 +48,25 @@ nav {
     border: 10px;
 }
 
+nav > a {
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    flex: 1 0 45%;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 h2 {
     display:flex;
     font-size: 30px;
     position:absolute;
     margin: 45px 0px;
-    flex:0 2 30px;
+    flex: 1 2 30px;
 }
 
 p {
@@ -60,44 +79,82 @@ p {
 }
 
 h3 {
+    display: flex;
     border: 5px solid black;
-    padding: 100px 50px 30px 10px;
-    margin:20px;
+    margin-left: 8px;
+    padding:10px;
+    color: white;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-shadow: 2px 2px black;
+}
+
+h3 > a {
+    text-decoration: none;
+    color:white;
 }
 
 h4 {
     display:flex;
-    flex-direction:row;
     border: 3px solid black;
-    padding: 50px 25px 15px 5px;
-    margin:2px 20px;
-    width:50%;
-    box-sizing:content-box;
+    height:140px;
+    padding:10px;
+    margin: 10px 0px 5px 10px;
+    color:white;
+    text-shadow:2px 2px black;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
+
+h4 > a {
+    text-decoration: none;
+    color:white;
+}
+.subject-list {
+    display:flex;
+    flex-wrap:wrap;
+}
+
 #surf {
-    background-image:url(./camera.jpg);
-    background-size:135px;
+    background-image:url(./marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    /* //Photo by <a href="https://unsplash.com/@marvelous?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marvin Meyer</a> on <a href="https://unsplash.com/photos/people-sitting-down-near-table-with-assorted-laptop-computers-SYTO3xs06fU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+    background-size:100%;
+    text-decoration:none;
+    height: 400px;
 }
 
 #led {
-    background-image:url(./camera.jpg);
-    background-size:130px;
+    background-image:url(./ilya-pavlov-OqtafYT5kTw-unsplash.jpg); 
+    /*Photo by <a href="https://unsplash.com/@ilyapavlov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ilya Pavlov</a> on <a href="https://unsplash.com/photos/monitor-showing-java-programming-OqtafYT5kTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  */
+    background-size:100%;
+    flex: 1 0 40%;
+    text-decoration:none;
 }
 
 #calculator {
-    background-image:url(./camera.jpg);
-    background-size:130px;
+    background-image:url(./jason-leung-Xaanw0s0pMk-unsplash.jpg);
+    /*Photo by <a href="https://unsplash.com/@ninjason?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jason Leung</a> on <a href="https://unsplash.com/photos/selective-focus-photography-of-multicolored-confetti-lot-Xaanw0s0pMk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  */
+    background-size:100%;
+    flex: 1 0 40%;
+    text-decoration:none;
 }
 
 #pastel {
-    background-image:url(./tablet.jpg);
-    background-size:130px;
+    background-image:url(./hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg);
+    /*Photo by <a href="https://unsplash.com/@sloppyperfectionist?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hans-Peter Gauster</a> on <a href="https://unsplash.com/photos/stack-of-jigsaw-puzzle-pieces-3y1zF4hIPCg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
+    background-size:100%;
+    flex: 1 0 40%;
+    text-decoration:none;
 }
 
 #buddy {
-    background-image:url(./tablet.jpg);
-    background-size:130px;
-    margin-bottom:60px
+    background-image:url(./myriam-zilles-KltoLK6Mk-g-unsplash.jpg);
+    /* Photo by <a href="https://unsplash.com/@myriamzilles?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Myriam Zilles</a> on <a href="https://unsplash.com/photos/white-blue-and-orange-medication-pill-KltoLK6Mk-g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+    background-size:100%;
+    flex: 1 0 40%;
+    text-decoration:none;
 }
 
 footer {
@@ -111,7 +168,7 @@ h5 {
     font-size: 30px;
     position:absolute;
     margin: 45px 0px;
-    flex:0 2 30px;
+    flex: 1 2 30px;
     padding: 15px;
     /* font-size: 32px;
     color:navy;
@@ -130,4 +187,10 @@ h5 {
     margin-top: 11px;
     border-left: 5px solid black;
     list-style: none;
+    text-decoration:none;
+}
+
+#contact-info > a {
+    text-decoration: none;
+    font-weight:bold;
 }
